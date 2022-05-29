@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime rates</title>
+    <link rel="stylesheet" href="nikita.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1 class="first">Graphical Representation of Crime and Data</h1>
+            <p></p>
+            
+        </div>
+    </section>
+
+
+    <section class="course">
+        <h1 class="crime">CRIME RATE</h1>
+        
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Bar</h3>
+                
+            </div>
+       
+            <div class="course-col">
+                <h3>Pie</h3>
+                <p></p>
+            </div>
+        
+        <div class="course-col">
+            <h3>Zero</h3>
+            <p></p>
+            </div>
+        </div>
+    </section>
+    
+
+    
+
+    
+    <script>
+
+        var navLinks = document.getElementById("navLinks"); 
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
